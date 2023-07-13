@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Pré-Venda Type R</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="icon" type="image/x-icon" href="\img\logo.jpg">
+</head>
+
+<!-- CABECALHO-->
+<body>
+    <nav>
+        <h2>TYPE R</h2>
+        <ul>
+            <li> <a href="/index.html">home</a></li>
+            <li> <a href="/cadastro.html">cadastro</a></li>
+            <li> <a href="/sobre.html">sobre</a></li>
+        </ul>
+    </nav>
+    <div class = "formulario1">
+        <form action="" id="formulario">
+            <div class="corpo">
+                <h4> FILA DE ESPERA - HONDA CIVIC TYPE R 2023 </h4>
+                <br>
+                <br>
+                <label for="innome">Nome completo</label>
+                <input type="text"placeholder="Nome:" class="innome">
+                <br>
+                <br>
+                <label for "sl_estado">Estado</label>
+                <select id="sl_estado">
+                    <option value="0">Selecione</option>
+                    <option value="1">AC</option>
+                    <option value="2">AL</option>
+                    <option value="3">AP</option>
+                    <option value="4">AM</option>
+                    <option value="5">BA</option>
+                    <option value="6">CE</option>
+                    <option value="7">DF</option>
+                    <option value="8">ES</option>
+                    <option value="9">GO</option>
+                    <option value="10">MA</option>
+                    <option value="11">MT</option>
+                    <option value="12">MS</option>
+                    <option value="13">MG</option>
+                    <option value="14">PA</option>
+                    <option value="15">PB</option>
+                    <option value="16">PR</option>
+                    <option value="17">PE</option>
+                    <option value="18">PI</option>
+                    <option value="19">RJ</option>
+                    <option value="20">RN</option>
+                    <option value="21">RS</option>
+                    <option value="22">RO</option>
+                    <option value="23">RR</option>
+                    <option value="24">SC</option>
+                    <option value="25">SP</option>
+                    <option value="26">SE</option>
+                    <option value="27">TO</option>
+                </select>
+                <br>
+                <br>
+                <label for="inemail">Endereço de email</label>
+                <input type="text"placeholder="email" class="inemail">
+                <br>
+                <br>
+                <label for="inemail">Nº de telefone</label>
+                <input type="text"placeholder="Telefone" class="intelefone">
+                <br>
+                <br>
+                <label for="inunidades">Quantas unidades deseja comprar?</label>
+                <input type="number"placeholder="Nº de unidades" class="inunidades" min="1" max="10">
+                <br>
+                <br>
+                <input type="radio" id="masc" name="gênero" value="Feminino">
+                <label for="masc">Masculino</label>
+                <input type="radio" id="fem" name="gênero" value="Masculino">
+                <label for="fem">Feminino</label>
+                <br>
+                </select>
+                <br>
+                <label for="chk_receber_email" > Receba emails </label>
+                <input type="checkbox" id="chk_receber_email">
+                <br>
+                <br>
+                <button>cadastrar</button>
+                <button type="reset">Limpar dados</button>
+            </div>
+        </div> 
+    </form>
+</body>
+</html>

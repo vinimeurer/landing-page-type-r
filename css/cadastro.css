@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav
+{display: flex;
+background-color: rgb(44, 46, 44);
+justify-content: space-between;
+padding: 20px;
+border-bottom: 1px solid;
+}
+
+nav ul 
+{display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+ul li 
+{margin-right: 12px;}
+
+ul li a 
+{color: #0293e6;}
+
+h2 { 
+    color:#0293e6;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+}
+body{
+    background-image: url("/img/2023-civic-typer-0020-1661974877.jpg");
+}
+
+
+form {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    width: 400px;
+    height: 550px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);  
+}
+
+#formulario {
+    text-align: center;
+}
+
+.innome {
+    color: black;
+    width: 400px;
+    height: 30px;
+}
+.inemail {
+    color: black;
+    width: 400px;
+    height: 30px;
+}
+
+.inunidades {
+    color: black;
+    width: 400px;
+    height: 30px;
+}
+
+.intelefone{
+    color: black;
+    width: 400px;
+    height: 30px; 
+}
+
+select {
+    color: black;
+    width: 400px;
+    height: 30px;
+}
+
+button{
+    color: black;
+    height: 30px ;
+    width: 200px;
+}
+
+label {
+    color: white;
+}
+
